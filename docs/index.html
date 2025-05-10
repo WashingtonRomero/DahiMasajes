@@ -6,15 +6,21 @@
   <title>Dahi Masajes</title>
   
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
 
   <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+  />
 
-  <!-- Enlace a tu estilo personalizado -->
+  <!-- Enlace a tu hoja de estilos personalizada -->
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Estilos adicionales para responsividad (si lo deseas, opcional) -->
+  <!-- Estilos adicionales (opcional) -->
   <style>
     @media (max-width: 768px) {
       .hero-section {
@@ -49,7 +55,7 @@
     </div>
   </nav>
 
-  <!-- Hero Section con imagen de fondo (Imagen ubicada en docs/imagenes/16.jpg) -->
+  <!-- Hero Section -->
   <header class="hero-section text-center d-flex align-items-center" style="background: url('imagenes/16.jpg') center/cover no-repeat; height: 60vh;">
     <div class="container">
       <h1 class="display-4 fw-bold">Bienvenido a Dahi Masajes</h1>
@@ -155,7 +161,7 @@
     <div class="container">
       <h2 class="text-center mb-4">Galería</h2>
       <div class="row g-4">
-        <!-- Elemento Galería: Masaje Descontracturante -->
+        <!-- Galería: Masaje Descontracturante -->
         <div class="col-12 col-sm-6 col-md-4">
           <figure class="text-center">
             <a href="#" data-bs-toggle="modal" data-bs-target="#modalDes">
@@ -164,7 +170,7 @@
             <figcaption class="mt-2">Masaje Descontracturante</figcaption>
           </figure>
         </div>
-        <!-- Elemento Galería: Masaje Relajante -->
+        <!-- Galería: Masaje Relajante -->
         <div class="col-12 col-sm-6 col-md-4">
           <figure class="text-center">
             <a href="#" data-bs-toggle="modal" data-bs-target="#modalRel">
@@ -173,7 +179,7 @@
             <figcaption class="mt-2">Masaje Relajante</figcaption>
           </figure>
         </div>
-        <!-- Elemento Galería: Masaje Terapéutico -->
+        <!-- Galería: Masaje Terapéutico -->
         <div class="col-12 col-sm-6 col-md-4">
           <figure class="text-center">
             <a href="#" data-bs-toggle="modal" data-bs-target="#modalTer">
@@ -182,7 +188,7 @@
             <figcaption class="mt-2">Masaje Terapéutico</figcaption>
           </figure>
         </div>
-        <!-- Elemento Galería: Masaje Reductores -->
+        <!-- Galería: Masaje Reductores -->
         <div class="col-12 col-sm-6 col-md-4">
           <figure class="text-center">
             <a href="#" data-bs-toggle="modal" data-bs-target="#modalRed">
@@ -191,7 +197,7 @@
             <figcaption class="mt-2">Masaje Reductores</figcaption>
           </figure>
         </div>
-        <!-- Elemento Galería: Vista Adicional 1 -->
+        <!-- Galería: Vista Adicional 1 -->
         <div class="col-12 col-sm-6 col-md-4">
           <figure class="text-center">
             <a href="#" data-bs-toggle="modal" data-bs-target="#modalExtra1">
@@ -200,7 +206,7 @@
             <figcaption class="mt-2">Vista Adicional 1</figcaption>
           </figure>
         </div>
-        <!-- Elemento Galería: Vista Adicional 2 -->
+        <!-- Galería: Vista Adicional 2 -->
         <div class="col-12 col-sm-6 col-md-4">
           <figure class="text-center">
             <a href="#" data-bs-toggle="modal" data-bs-target="#modalExtra2">
@@ -213,7 +219,7 @@
     </div>
   </section>
 
-  <!-- Modales para cada imagen -->
+  <!-- Modales -->
   <!-- Modal Masaje Descontracturante -->
   <div class="modal fade" id="modalDes" tabindex="-1" aria-labelledby="modalDesLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -317,12 +323,12 @@
     </div>
   </div>
 
-  <!-- Footer / Sección de Contacto -->
+  <!-- Footer / Sección de Contacto (redes sociales incluidas) -->
   <footer id="contacto" class="footer">
     <div class="container">
       <p class="mb-1">Contacto: 096921784</p>
       <div class="mb-2">
-        <a href="https://www.facebook.com/dahi.garcia" target="_blank" class="text-white me-3">
+        <a href="https://www.facebook.com/Dahiana.Colino" target="_blank" class="text-white me-3">
           <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
         </a>
         <a href="https://www.instagram.com/dahi.masajes" target="_blank" class="text-white me-3">
@@ -338,11 +344,10 @@
 
   <!-- Bootstrap Bundle JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  
   <!-- Enlace a tu archivo de JavaScript -->
   <script src="scripts.js"></script>
-
-  <!-- Ejemplo de un script de validación (opcional) -->
+  
+  <!-- Ejemplo de script de validación (opcional) -->
   <script>
     document.getElementById("fecha").addEventListener("change", function () {
       const date = new Date(this.value);
